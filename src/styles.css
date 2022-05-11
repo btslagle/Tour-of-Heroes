@@ -1,20 +1,21 @@
-/* Application-wide Styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 h1 {
     color: #369;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Koulen', cursive;
     font-size: 250%;
 }
 
 h2,
 h3 {
     color: #444;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Koulen', cursive;
     font-weight: lighter;
 }
 
 body {
     margin: 2em;
+    font-family: 'Koulen', cursive;
 }
 
 body,
@@ -36,6 +37,8 @@ button {
     margin-right: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    word-spacing: 2px;
+    font-family: 'Macondo', cursive;
 }
 
 button:hover {
@@ -49,9 +52,13 @@ button:disabled {
     cursor: auto;
 }
 
+span+span {
+    margin-left: 8px;
+}
+
 
 /* everywhere else */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Koulen', cursive;
 }
